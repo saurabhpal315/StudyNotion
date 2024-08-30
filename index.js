@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://study-ebon-three.vercel.app/",
+		origin:"https://study-ebon-three.vercel.app",
 		credentials:true,
 	})
 )
